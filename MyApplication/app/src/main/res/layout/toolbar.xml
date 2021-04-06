@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/black"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/Mes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/MesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tab_weixin_normal"
+            android:clickable="false"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/ToolBarText1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="微信"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Fra"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/FraButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:clickable="false"
+            app:srcCompat="@drawable/tab_find_frd_normal" />
+
+        <TextView
+            android:id="@+id/ToolBarText2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="好友"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/AddressButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:clickable="false"
+            app:srcCompat="@drawable/tab_address_normal" />
+
+        <TextView
+            android:id="@+id/ToolBarText3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="通讯录"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Setting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/SettingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:clickable="false"
+            app:srcCompat="@drawable/tab_settings_normal" />
+
+        <TextView
+            android:id="@+id/ToolBarText4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="设置"
+
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>
