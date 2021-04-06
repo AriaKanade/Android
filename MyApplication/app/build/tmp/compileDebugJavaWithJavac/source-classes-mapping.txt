@@ -1,0 +1,19 @@
+com/example/myapplication/Userdata.java
+ com.example.myapplication.Userdata
+com/example/myapplication/SettingsFragment.java
+ com.example.myapplication.SettingsFragment
+com/example/myapplication/AddressFragment.java
+ com.example.myapplication.AddressFragment
+com/example/myapplication/UserListView.java
+ com.example.myapplication.UserListView
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
+com/example/myapplication/UserAdapter.java
+ com.example.myapplication.UserAdapter
+ com.example.myapplication.UserAdapter$ViewHolder
+com/example/myapplication/FraFragment.java
+ com.example.myapplication.FraFragment
+com/example/myapplication/MesFragment.java
+ com.example.myapplication.MesFragment
+com/example/myapplication/MainActivity.java
+ com.example.myapplication.MainActivity
