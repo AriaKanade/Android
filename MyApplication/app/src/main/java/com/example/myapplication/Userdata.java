@@ -1,7 +1,5 @@
 package com.example.myapplication;
 
-import android.graphics.drawable.Drawable;
-
 public class Userdata {
 
     private int imageId;

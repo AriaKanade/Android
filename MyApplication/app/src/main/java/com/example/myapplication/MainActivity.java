@@ -103,16 +103,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
        ImageButton button =  findViewById(ButtonId);
        switch (ButtonId){
            case R.id.MesButton:
-               button.setImageDrawable(getResources().getDrawable(R.drawable.tab_weixin_pressed));
+               button.setImageDrawable(getResources().getDrawable(R.drawable.tab_weixin_pressed,null));
                break;
            case R.id.FraButton:
-               button.setImageDrawable(getResources().getDrawable(R.drawable.tab_find_frd_pressed));
+               button.setImageDrawable(getResources().getDrawable(R.drawable.tab_find_frd_pressed,null));
                break;
            case R.id.SettingButton:
-               button.setImageDrawable(getResources().getDrawable(R.drawable.tab_settings_pressed));
+               button.setImageDrawable(getResources().getDrawable(R.drawable.tab_settings_pressed,null));
                break;
            case R.id.AddressButton:
-               button.setImageDrawable(getResources().getDrawable(R.drawable.tab_address_pressed));
+               button.setImageDrawable(getResources().getDrawable(R.drawable.tab_address_pressed,null));
                break;
            default:
                break;
@@ -125,16 +125,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (ActiveButtonId){
             case R.id.MesButton:
-                button.setImageDrawable(getResources().getDrawable(R.drawable.tab_weixin_normal));
+                button.setImageDrawable(getResources().getDrawable(R.drawable.tab_weixin_normal,null));
                 break;
             case R.id.FraButton:
-                button.setImageDrawable(getResources().getDrawable(R.drawable.tab_find_frd_normal));
+                button.setImageDrawable(getResources().getDrawable(R.drawable.tab_find_frd_normal,null));
                 break;
             case R.id.SettingButton:
-                button.setImageDrawable(getResources().getDrawable(R.drawable.tab_settings_normal));
+                button.setImageDrawable(getResources().getDrawable(R.drawable.tab_settings_normal,null));
                 break;
             case R.id.AddressButton:
-                button.setImageDrawable(getResources().getDrawable(R.drawable.tab_address_normal));
+                button.setImageDrawable(getResources().getDrawable(R.drawable.tab_address_normal,null));
                 break;
             default:
                 break;

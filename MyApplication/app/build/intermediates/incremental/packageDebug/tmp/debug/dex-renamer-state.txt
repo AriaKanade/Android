@@ -1,7 +1,7 @@
-#Thu Apr 01 11:10:21 CST 2021
-base.0=C\:\\Users\\admin\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Fri Apr 09 10:13:41 CST 2021
+base.0=C\:\\Users\\admin\\Documents\\GitHub\\Android\\MyApplication\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\admin\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.1=C\:\\Users\\admin\\Documents\\GitHub\\Android\\MyApplication\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
